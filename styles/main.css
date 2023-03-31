@@ -1,24 +1,79 @@
-abcdef {                                 
-     color: cs275
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+}
 
+.carousel {
+  margin: auto;
+  width: 640px;
+  overflow: hidden;
+}
 
+.carousel-slides {
+  width: max-content;
+  transition-property: margin-left;
+  transition-duration: 250ms;
+}
 
+.carousel-navigation {
+  position: absolute;
+  top: 40%;
+}
 
+#left-arrow {
+  position: absolute;
+  z-index: 3;
+}
 
+#right-arrow {
+  position: absolute;
+  left: 610px;
+  z-index: 0;
+}
 
+#slide {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -20px;
+  padding: 20px;
+  width: 640px;
+  z-index: 1;
+}
 
+#album {
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  text-align: center;
+  font-weight: 600;
+}
 
+#artist {
+  text-align: center;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
 
+#pic {
+  padding-top: 20px;
+}
 
+#credit {
+  padding-top: 2px;
+  font-size: 14px;
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
+#description {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
